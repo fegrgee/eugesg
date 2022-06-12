@@ -12,7 +12,7 @@ XXX.cloud.okteto.net/v2link/index.html
 
 Vless & Vmess: 
 
-[![Deploy](https://www.herokucdn.com/fegrgee/eugesg.png)](https://heroku.com/deploy) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
 
 [![Develop on Okteto](https://okteto.com/fegrgee/eugesg.svg)](https://cloud.okteto.com/deploy)
 

@@ -12,9 +12,9 @@ XXX.cloud.okteto.net/v2link/index.html
 
 Vless & Vmess: 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
+[![Deploy](https://www.herokucdn.com/fegrgee/eugesg.png)](https://heroku.com/fegrgee) 
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy)
+[![Develop on Okteto](https://okteto.com/fegrgee/eugesg.svg)](https://cloud.okteto.com/fegrgee)
 
 **Risk of account blocking for abuse!**
 

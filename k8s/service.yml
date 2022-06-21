@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: job
+  name: open
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "job"
+  - name: "open"
     port: 8080
   selector:
-    app: job
+    app: open

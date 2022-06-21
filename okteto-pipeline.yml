@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/fire:latest
+  - okteto build -t okteto.dev/job:latest
   - kubectl apply -f k8s

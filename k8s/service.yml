@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: fly
+  name: fire
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "fly"
+  - name: "fire"
     port: 8080
   selector:
-    app: fly
+    app: fire

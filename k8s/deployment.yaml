@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "studentaffairs.com"
         - name: Vless_UUID
-          value: ""
+          value: "efb6a515-f34e-493c-82ba-3caf5d97ba07"
         - name: Vless_Path
           value: "/v2022"
         - name: Vmess_UUID
-          value: ""
+          value: "6ef3d4a5-9b6f-49bd-87e8-4b4381e03264"
         - name: Vmess_Path
           value: "/vm2021"
         - name: Share_Path

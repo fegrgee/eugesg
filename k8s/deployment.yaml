@@ -1,33 +1,33 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fly
+  name: job
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fly
+      app: job
   template:
     metadata:
       labels:
-        app: fly
+        app: job
     spec:
       containers:
-      - image: okteto.dev/fly:latest
-        name: fly
+      - image: okteto.dev/job:latest
+        name: job
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "www.bing.com"
+          value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "efb6a515-f34e-493c-82ba-3caf5d97ba07"
+          value: "fed332ac-f94f-4c2d-9677-904461769270"
         - name: Vless_Path
           value: "/v2022"
         - name: Vmess_UUID
-          value: "6ef3d4a5-9b6f-49bd-87e8-4b4381e03264"
+          value: "4a552064-80f1-4195-ad8b-10c7220026af"
         - name: Vmess_Path
           value: "/vm2021"
         - name: Share_Path

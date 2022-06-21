@@ -3,18 +3,18 @@ kind: Deployment
 metadata:
   name: fire
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
-      app: fire
+      app: job
   template:
     metadata:
       labels:
-        app: fire
+        app: job
     spec:
       containers:
-      - image: okteto.dev/fire:latest
-        name: fire
+      - image: okteto.dev/job:latest
+        name: job
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "www.bing.com"
         - name: Vless_UUID
-          value: "350638d9-3a16-4c17-8ec6-3d1ec77faaf7"
+          value: "fed332ac-f94f-4c2d-9677-904461769270"
         - name: Vless_Path
           value: "/v2022"
         - name: Vmess_UUID
-          value: "47381d0b-f884-4f64-8f94-a0b11c8d0286"
+          value: "4a552064-80f1-4195-ad8b-10c7220026af"
         - name: Vmess_Path
           value: "/vm2021"
         - name: Share_Path

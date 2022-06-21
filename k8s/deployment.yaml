@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fire
+  name: fly
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: fire
+      app: fly
   template:
     metadata:
       labels:
-        app: fire
+        app: fly
     spec:
       containers:
-      - image: okteto.dev/fire:latest
-        name: fire
+      - image: okteto.dev/fly:latest
+        name: fly
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "www.bing.com"
         - name: Vless_UUID
-          value: "350638d9-3a16-4c17-8ec6-3d1ec77faaf7"
+          value: "efb6a515-f34e-493c-82ba-3caf5d97ba07"
         - name: Vless_Path
           value: "/v2022"
         - name: Vmess_UUID
-          value: "47381d0b-f884-4f64-8f94-a0b11c8d0286"
+          value: "6ef3d4a5-9b6f-49bd-87e8-4b4381e03264"
         - name: Vmess_Path
           value: "/vm2021"
         - name: Share_Path

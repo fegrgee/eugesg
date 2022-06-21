@@ -4,8 +4,8 @@
   "keywords": ["good"],
   "env": {
     "ProxySite": {
-      "description": "反代的网站(伪装网站)，例如：goodwillsew.com ",
-      "value": "goodwillsew.com"
+      "description": "反代的网站(伪装网站)，例如：mirror.umd.edu ",
+      "value": "mirror.umd.edu"
     },
 
     "Vless_UUID": {
@@ -34,7 +34,7 @@
 
     "VER": {
        "description": "Xray版本，默认latest安装最新版本，可以去https://github.com/XTLS/Xray-core/releases选择版本 （例如：1.2.2)",
-       "value": "latest"
+       "value": "1.5.5"
      }
   },
   "website": "",
